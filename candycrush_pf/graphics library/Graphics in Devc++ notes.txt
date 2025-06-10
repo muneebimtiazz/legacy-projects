@@ -1,0 +1,28 @@
+step-1:
+uninstall devc++
+
+step-2:
+extract Graphics in Devc++
+
+step-3:
+copy 
+6-consoleappgrahics 
+consoleapp_cpp_graph
+paste
+C:\Program Files (x86)\Dev-Cpp\Templates
+
+copy
+graphics
+winbgim
+paste
+C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include
+
+copy
+libbgi.a
+paste
+C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib
+
+step4:
+open devc++ and create graphics file:
+file->new->project->consolegrapics->c++project
+choose tdm-gcc 4.9.2 32-bit Release
